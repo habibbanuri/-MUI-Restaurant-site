@@ -88,7 +88,7 @@ const Contact: React.FC = () => {
                       onClick={handleMenuClick}
                     >
                       <FormatBold />
-                      <KeyboardArrowDown fontSize="md" />
+                      <KeyboardArrowDown  />
                     </IconButton>
                     <Menu
                       anchorEl={anchorEl}
@@ -106,7 +106,7 @@ const Contact: React.FC = () => {
                           sx={{ fontWeight: weight }}
                         >
                           <ListItemDecorator>
-                            {fontWeight === weight && <Check fontSize="sm" />}
+                            {fontWeight === weight && <Check  />}
                           </ListItemDecorator>
                           {weight === '200' ? 'lighter' : weight}
                         </MenuItem>
